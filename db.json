@@ -1,9 +1,285 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "products": [
+    {
+      "id": 2,
+      "name": "GaN 65W Fast Charging Wall Adapter",
+      "sku": "DM-ELC-02",
+      "category": "Electronics",
+      "price": 3850,
+      "description": "Compact dual USB-C and USB-A fast charger for laptops, tablets, and smartphones.",
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=800&q=80",
+      "stock": 25
+    },
+    {
+      "id": 3,
+      "name": "Handcrafted Nairobi Leather Chelsea Boots",
+      "sku": "DM-FTW-01",
+      "category": "Footwear",
+      "price": 8400,
+      "description": "Full-grain vegetable-tanned leather boots with elastic gussets and durable crepe soles.",
+      "image": "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?auto=format&fit=crop&w=800&q=80",
+      "stock": 7
+    },
+    {
+      "id": 4,
+      "name": "Mechanical Wireless Backlit Keyboard",
+      "sku": "DM-ELC-03",
+      "category": "Electronics",
+      "price": 6200,
+      "description": "75% compact tactile mechanical keyboard with warm white backlighting and multi-device Bluetooth.",
+      "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=800&q=80",
+      "stock": 12
+    },
+    {
+      "id": 5,
+      "name": "Speckled Stoneware Pour-Over Dripper",
+      "sku": "DM-KIT-01",
+      "category": "Home & Kitchen",
+      "price": 4160,
+      "description": "Wheel-thrown matte ceramic coffee dripper with spiral ribs for even extraction.",
+      "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+      "stock": 15
+    },
+    {
+      "id": 6,
+      "name": "Portable Waterproof Bluetooth Speaker",
+      "sku": "DM-ELC-04",
+      "category": "Electronics",
+      "price": 4500,
+      "description": "360-degree stereo sound speaker with IPX7 water resistance and 12-hour playtime.",
+      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&q=80",
+      "stock": 4
+    },
+    {
+      "id": 7,
+      "name": "Heavyweight Organic Cotton Crewneck Tee",
+      "sku": "DM-CLT-01",
+      "category": "Clothing",
+      "price": 2200,
+      "description": "Relaxed-fit 240gsm combed East African cotton t-shirt in warm earth tones.",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80",
+      "stock": 30
+    },
+    {
+      "id": 8,
+      "name": "20,000mAh PD Power Bank",
+      "sku": "DM-ELC-05",
+      "category": "Electronics",
+      "price": 4900,
+      "description": "High-capacity slim aluminum power bank capable of charging laptops and phones simultaneously.",
+      "image": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&w=800&q=80",
+      "stock": 22
+    },
+    {
+      "id": 9,
+      "name": "Chester Bed",
+      "sku": "HM-002",
+      "category": "Home & Kitchen",
+      "price": 30000,
+      "description": "Upholstered tufted queen-size bed frame with solid hardwood slats and plush headboard.",
+      "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "stock": 38
+    },
+    {
+      "id": 10,
+      "name": "Running shoes",
+      "sku": "RN-OO3",
+      "category": "Footwear",
+      "price": 3500,
+      "description": "Lightweight breathable mesh road-running trainers with responsive EVA foam cushioning.",
+      "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=800&q=80",
+      "stock": 2
+    },
+    {
+      "id": 11,
+      "name": "Ergonomic Vertical Wireless Mouse",
+      "sku": "DM-ELC-06",
+      "category": "Electronics",
+      "price": 3100,
+      "description": "Contoured vertical mouse designed to reduce wrist strain with adjustable 2400 DPI sensor.",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+      "stock": 0
+    },
+    {
+      "id": 12,
+      "name": "AMOLED Fitness & Health Smartwatch",
+      "sku": "DM-ELC-07",
+      "category": "Electronics",
+      "price": 7800,
+      "description": "Always-on display smartwatch featuring heart-rate tracking, built-in GPS, and 14-day battery.",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+      "stock": 14
+    },
+    {
+      "id": 13,
+      "name": "7-in-1 USB-C Aluminum Hub",
+      "sku": "DM-ELC-08",
+      "category": "Electronics",
+      "price": 3400,
+      "description": "Sleek space-gray adapter with 4K HDMI, 100W PD pass-through, SD card reader, and USB 3.0 ports.",
+      "image": "https://images.unsplash.com/photo-1625842268584-8f3296236761?auto=format&fit=crop&w=800&q=80",
+      "stock": 29
+    },
+    {
+      "id": 14,
+      "name": "Minimalist White Leather Court Sneakers",
+      "sku": "DM-FTW-02",
+      "category": "Footwear",
+      "price": 5600,
+      "description": "Clean low-top everyday leather sneakers with stitched rubber cupsoles and cushioned insoles.",
+      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80",
+      "stock": 11
+    },
+    {
+      "id": 15,
+      "name": "Woven Maasai-Inspired Leather Sandals",
+      "sku": "DM-FTW-03",
+      "category": "Footwear",
+      "price": 2400,
+      "description": "Hand-beaded full-grain leather strapped sandals crafted by local artisans with tire-tread soles.",
+      "image": "https://images.unsplash.com/photo-1603487742131-4160ec999306?auto=format&fit=crop&w=800&q=80",
+      "stock": 19
+    },
+    {
+      "id": 16,
+      "name": "Suede Desert Chukka Boots",
+      "sku": "DM-FTW-04",
+      "category": "Footwear",
+      "price": 6900,
+      "description": "Soft sand-toned calfskin suede ankle boots with two-eyelet lacing and flexible rubber outsoles.",
+      "image": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=800&q=80",
+      "stock": 3
+    },
+    {
+      "id": 17,
+      "name": "High-Top Canvas Street Trainers",
+      "sku": "DM-FTW-05",
+      "category": "Footwear",
+      "price": 3200,
+      "description": "Durable 12oz organic cotton canvas high-tops with reinforced toe caps and vulcanized soles.",
+      "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=800&q=80",
+      "stock": 16
+    },
+    {
+      "id": 18,
+      "name": "French Press Borosilicate Coffee Maker",
+      "sku": "DM-KIT-02",
+      "category": "Home & Kitchen",
+      "price": 3600,
+      "description": "1-liter heat-resistant glass carafe with stainless steel plunger and fine mesh filter.",
+      "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80",
+      "stock": 21
+    },
+    {
+      "id": 19,
+      "name": "Pre-Seasoned Cast Iron Skillet (12-Inch)",
+      "sku": "DM-KIT-03",
+      "category": "Home & Kitchen",
+      "price": 4800,
+      "description": "Heavy-duty cast iron frying pan ideal for searing, baking, and stovetop-to-oven cooking.",
+      "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?auto=format&fit=crop&w=800&q=80",
+      "stock": 9
+    },
+    {
+      "id": 20,
+      "name": "Acacia Wood End-Grain Cutting Board",
+      "sku": "DM-KIT-04",
+      "category": "Home & Kitchen",
+      "price": 2950,
+      "description": "Reversible sustainably harvested acacia butcher block with deep juice groove and side handles.",
+      "image": "https://images.unsplash.com/photo-1594385208974-2e75f8d7bb48?auto=format&fit=crop&w=800&q=80",
+      "stock": 0
+    },
+    {
+      "id": 21,
+      "name": "Minimalist Ceramic Dinnerware Set (12-Piece)",
+      "sku": "DM-KIT-05",
+      "category": "Home & Kitchen",
+      "price": 9500,
+      "description": "Scratch-resistant stoneware plates and bowls in matte oat glaze, service for four.",
+      "image": "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=800&q=80",
+      "stock": 6
+    },
+    {
+      "id": 22,
+      "name": "Gooseneck Electric Pour-Over Kettle",
+      "sku": "DM-KIT-06",
+      "category": "Home & Kitchen",
+      "price": 6800,
+      "description": "0.8L brushed stainless steel kettle with precision spout and variable temperature control.",
+      "image": "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?auto=format&fit=crop&w=800&q=80",
+      "stock": 13
+    },
+    {
+      "id": 23,
+      "name": "Handwoven Sisal & Cotton Throw Blanket",
+      "sku": "DM-KIT-07",
+      "category": "Home & Kitchen",
+      "price": 3900,
+      "description": "Soft breathable textured throw with hand-knotted fringe for sofas and beds.",
+      "image": "https://images.unsplash.com/photo-1580301762395-21ce84d00bc6?auto=format&fit=crop&w=800&q=80",
+      "stock": 17
+    },
+    {
+      "id": 24,
+      "name": "Selvedge Raw Denim Chore Jacket",
+      "sku": "DM-CLT-02",
+      "category": "Clothing",
+      "price": 6500,
+      "description": "14oz indigo cotton denim utility jacket with brass buttons and four deep patch pockets.",
+      "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=800&q=80",
+      "stock": 8
+    },
+    {
+      "id": 25,
+      "name": "Breathable Pure Linen Button-Down Shirt",
+      "sku": "DM-CLT-03",
+      "category": "Clothing",
+      "price": 3800,
+      "description": "Lightweight pre-washed flax linen shirt tailored for warm coastal and city weather.",
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80",
+      "stock": 15
+    },
+    {
+      "id": 26,
+      "name": "French Terry Pullover Hoodie",
+      "sku": "DM-CLT-04",
+      "category": "Clothing",
+      "price": 4200,
+      "description": "380gsm brushed organic cotton fleece hoodie with double-lined hood and ribbed cuffs.",
+      "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=800&q=80",
+      "stock": 4
+    },
+    {
+      "id": 27,
+      "name": "Tailored Stretch Cotton Chino Trousers",
+      "sku": "DM-CLT-05",
+      "category": "Clothing",
+      "price": 4100,
+      "description": "Tapered-fit twill chinos with subtle 2% elastane stretch for all-day comfort.",
+      "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=800&q=80",
+      "stock": 20
+    },
+    {
+      "id": 28,
+      "name": "Waxed Canvas Commuter Backpack",
+      "sku": "DM-ACC-01",
+      "category": "Accessories",
+      "price": 5900,
+      "description": "Water-resistant 16oz waxed canvas rucksack with padded 16-inch laptop sleeve and leather straps.",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+      "stock": 9
+    },
+    {
+      "id": 30,
+      "name": "Polarized Tortoiseshell Acetate Sunglasses",
+      "sku": "DM-ACC-03",
+      "category": "Accessories",
+      "price": 3300,
+      "description": "Handcrafted cellulose acetate frames with UV400 polarized lenses and five-barrel hinges.",
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80",
+      "stock": 0
+    }
+  ]
 }
+
